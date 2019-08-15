@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">android-study</string>
-    <string name="question_text">Canberra is the capital of Australia.</string>
-    <string name="ture_button">确定</string>
-    <string name="false_button">取消</string>
+    <string name="app_name">阐扬信息</string>
+    <string name="tab_location">位置</string>
+    <string name="tab_find">发现</string>
+    <string name="tab_favorite">爱好</string>
+    <string name="tab_book">图书</string>
 </resources>
