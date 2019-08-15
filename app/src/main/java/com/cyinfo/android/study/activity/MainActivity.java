@@ -18,6 +18,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActivity implements BottomNavigationBar.OnTabSelectedListener {
+    
     @BindView(R.id.bottom_navigation_bar)
     public BottomNavigationBar bottomNavigationBar;
 
