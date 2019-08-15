@@ -18,7 +18,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActivity implements BottomNavigationBar.OnTabSelectedListener {
-    
+
     @BindView(R.id.bottom_navigation_bar)
     public BottomNavigationBar bottomNavigationBar;
 
@@ -42,7 +42,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationBar.On
     }
 
     private void initData() {
-        bottomNavigationBar.setMode(BottomNavigationBar.MODE_DEFAULT);
+        bottomNavigationBar.setMode(BottomNavigationBar.MODE_FIXED);
         bottomNavigationBar.addItem(new BottomNavigationItem(R.mipmap.ic_location_on_white_24dp, R.string.tab_location)).setActiveColor(R.color.orange)
                 .addItem(new BottomNavigationItem(R.mipmap.ic_find_replace_white_24dp, R.string.tab_find)).setActiveColor(R.color.blue)
                 .addItem(new BottomNavigationItem(R.mipmap.ic_favorite_white_24dp, R.string.tab_favorite)).setActiveColor(R.color.green)
