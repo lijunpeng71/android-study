@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">android-study</string>
+    <string name="ok">确定</string>
 </resources>
