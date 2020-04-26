@@ -5,6 +5,7 @@
 *.dex
 # Java class files
 *.class
+*.project
 # Generated files
 bin/
 gen/
@@ -24,7 +25,7 @@ proguard/
 captures/
 # Intellij
 *.iml
-.idea/workspace.xml
-.idea/libraries
+.idea/
 # Keystore files
 *.jks
+*.project
