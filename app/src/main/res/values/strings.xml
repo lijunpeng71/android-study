@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IOT管理系统</string>
+    <string name="navigation_main">主页</string>
+    <string name="navigation_dashboard">仪表盘</string>
+    <string name="navigation_device">设备</string>
+    <string name="navigation_mine">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
