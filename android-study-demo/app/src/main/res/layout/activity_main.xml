@@ -3,45 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_light"
     tools:context=".activity.MainActivity">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/fragment_view_page"
+    <TextView
+        android:id="@+id/textTv"
+        android:textAlignment="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/tab_radio_group" />
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:textColor="@android:color/black"
+        android:text="lijunpeng71@163.com" />
 
-    <RadioGroup
-        android:id="@+id/tab_radio_group"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_alignParentBottom="true"
-        android:background="#dcdcdc"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/today_tab"
-            style="@style/Custom.TabRadioButton"
-            android:checked="true"
-            android:drawableTop="@drawable/tab_main_selector"
-            android:text="@string/navigation_main" />
-
-        <RadioButton
-            android:id="@+id/record_tab"
-            style="@style/Custom.TabRadioButton"
-            android:drawableTop="@drawable/tab_dashboard_selector"
-            android:text="@string/navigation_dashboard" />
-
-        <RadioButton
-            android:id="@+id/contact_tab"
-            style="@style/Custom.TabRadioButton"
-            android:drawableTop="@drawable/tab_device_selector"
-            android:text="@string/navigation_device" />
-
-        <RadioButton
-            android:id="@+id/settings_tab"
-            style="@style/Custom.TabRadioButton"
-            android:drawableTop="@drawable/tab_mine_selector"
-            android:text="@string/navigation_mine" />
-    </RadioGroup>
 </RelativeLayout>
