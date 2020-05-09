@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     android:background="@android:color/background_light"
+    android:orientation="vertical"
     tools:context=".activity.MainActivity">
-
     <TextView
-        android:id="@+id/textTv"
-        android:textAlignment="center"
+        android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autoLink="email"
-        android:textColor="@android:color/black"
-        android:text="lijunpeng71@163.com" />
-
-</RelativeLayout>
+        android:text="请输入准确的日期时间"/>
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置日期"/>
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置时间"/>
+</LinearLayout>

@@ -3,4 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="content_str">
+        一、注册信息和隐私条款<br/>
+        二、使用规则<br/>
+        三、服务内容<br/>
+    </string>
 </resources>
